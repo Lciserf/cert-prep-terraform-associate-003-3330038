@@ -12,3 +12,10 @@ provider "aws" {
   profile = "Helen"
   # Configuration options
 }
+
+
+provider "aws" {
+  alias  = "west"
+  region = "us-east-1"
+  profile = "Helen"
+}
